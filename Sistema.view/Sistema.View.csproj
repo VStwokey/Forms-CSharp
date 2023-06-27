@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
+    <ProjectReference Include="..\Sistema.Model\Sistema.Model.csproj" />
+  </ItemGroup>
+
+</Project>
